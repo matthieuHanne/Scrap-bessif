@@ -544,7 +544,7 @@ def scrap_multi_keyword():
 		print "\n\n"+word
 		recherche(str(word[0:-1]))
 
-scrap_multi_keyword()
+#scrap_multi_keyword()
 		
 #if len(sys.argv) > 2:
      #stripScriptFromHtml( sys.argv[1], sys.argv[2] )

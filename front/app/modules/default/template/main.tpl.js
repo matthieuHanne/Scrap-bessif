@@ -1,0 +1,1 @@
+define(function () { return '<div class="banner">\n    <h1>Matthieu Hanne.js</h1>\n</div>\n';});""

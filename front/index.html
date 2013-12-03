@@ -1,0 +1,30 @@
+<HTML>
+	<head>
+		<title> Scrap brvt</title>
+		<meta name="description" content=" Scrap time ">
+		<meta name="author" content="m2thn" >
+		<meta name="author" content="hanserbe" >
+		<meta name="author" content="crichon" >
+		<meta charset="utf-8">
+	</head>
+	<body>
+	</body>
+	<script>
+		(function() {
+			'use strict';
+
+			var script = document.createElement('script');
+			var Config = {
+				host: '.',
+				assets: '.',
+				apiUrl: 'http://localhost:3000'
+			}
+			script.addEventListener('load', function () {
+				require.appConfig = Config;
+			});
+			script.setAttribute('src', Config.host + '/lib/require-2.1.2.min.js');
+			script.setAttribute('data-main', Config.host + '/app/main');
+			document.head.appendChild(script);
+		}).call(window);
+	</script>
+</HTML>
