@@ -14,7 +14,7 @@ def scrap():
     keywords = request.form['keywords'].split()
     for word in keywords:
         print word   
-        # recherche(word)
+        ic05_new_db.recherche(word)
     return 'test:)'
 if __name__ == '__main__':
     app.run()
