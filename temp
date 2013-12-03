@@ -1,0 +1,4071 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+    <title>espacenet - 
+        
+            vue des résultats</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="gratuit, Brevets,  l´information brevets, Documents de Brevets En ligne, espacenet, espacenet, Base de données, inventions, inventeur, innovation, industrie, idées"/>
+    
+  
+    <link href="/css/cssEpo.css" media="screen" rel="stylesheet" type="text/css" />
+	
+	<link href="/css/cssJQuery.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/css/espacenet.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/images/favicon.ico" rel="favicon" />
+	
+	<link href="/css/cssPrint.css" type="text/css" rel="stylesheet" media="print"/>
+	<link href="/css/cssPrintLayout.css" type="text/css" rel="stylesheet" media="print"/>
+  
+  <link href="/css/espacenetPrint.css" media="print" rel="stylesheet" type="text/css" />
+  
+  <!--[if IE 8]> <link href="/css/css_IE8.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if IE 7]> <link href="/css/css_IE7.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if IE 6]> <link href="/css/css_IE6.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <script type="text/javascript">
+    //<![CDATA[
+
+            var scriptStyles = document.createElement( 'link' );
+            scriptStyles.rel = 'stylesheet';
+            scriptStyles.type = 'text/css';
+            scriptStyles.href = '/css/dyn.css';
+            scriptStyles.media = 'all';
+            if ( head = document.getElementsByTagName( 'head' )[0] ) {
+                head.appendChild( scriptStyles );
+            }
+            //]]>
+    </script>
+
+    <style type="text/css">
+            .epoNavigation,.modAppFlyoutNavi,.epoHeader{position: relative;z-index: 1000;}.epoNavigation{z-index: 1000;}.modAppFlyoutNavi{z-index: 1001;}.epoHeader{z-index: 1002;}
+    </style>
+
+    
+    <script type="text/javascript" src="/dwr/util.js"></script>
+
+    <script type="text/javascript" src="/javascript/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="/javascript/jquery-ui.custom.min.js"></script>
+    <script type="text/javascript" src="/javascript/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/javascript/jquery.combobox.js"></script>
+    <script type="text/javascript" src="/javascript/jquery.expandableinput.js"></script>
+    <script type="text/javascript" src="/scripts/util20081010.js"></script>
+
+    <!--[if IE 7]> <script type="text/javascript" conditional="IE 7" src="/javascript/IE7.js"></script><![endif]-->
+	<script type="text/javascript" src="/javascript/iutil.js"></script>
+	<script type="text/javascript" src="/javascript/accordion.js"></script>
+	<script type="text/javascript" src="/javascript/main.js"></script>
+	<script type="text/javascript" src="/javascript/espacenet.js"></script>
+
+	<script type="text/javascript" src="/scripts/espacenet.utils.js"></script>
+	
+	<script type="text/javascript" src="/scripts/browser_all.js"></script>
+	<!--[if IE]> <script type="text/javascript" conditional="IE" src="/scripts/browser_IE.js"></script><![endif]-->
+
+</head>
+
+<body class="present" onunload="doPageUnload();">
+    <div id="page" class="pageWrap printGrid screenWide">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+<div class="printLogo printIt">                 
+    <img src="/images/logo_fr_FR.gif" alt="Logo" />
+    <h1>Espacenet</h1>
+</div>
+
+<div class="epoHeader">
+    <div id="epoHeader" class="clearfix">
+        
+
+        
+        
+            
+        
+        <a id="epoLogo" title="Link to EPO Homepage" name="epoLogo" href="http://www.inpi.fr"><img alt="Logo European Patent Office" src="/images/logo_fr_FR.gif" /></a>
+        <div id="epoHeaderCenter">
+      <div style="color:#425060; padding-top: 15px; padding-left: 30px; font-weight: bold; font-size: 28px; font-family: Arial;"><span style="color:#b03028;">Espace</span>net</div>
+      <div style="color:#425060; padding-left: 30px; font-size: 16px; font-weight: bold; font-family: Arial;">Recherche sur les brevets</div>
+    </div>
+
+        <div id="epoHeaderMetaNav">
+            <ul class="modLanguageNavi clearfix">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                
+                
+               
+                    
+                   
+                   
+                  
+                    
+                     
+                  
+                  
+                  
+                      
+                   
+                     
+                   <li li_attributes >
+                    <a title="Deutsch auswählen" href="http://fr.espacenet.com/e/searchResults?locale=fr_FR&amp;ST=singleline&amp;compact=false&amp;query=banane&amp;DB=fr.espacenet.com" class=&#034;sel&#034; > Français</a>
+                   </li>
+                  
+                   
+               
+            </ul>
+
+            <ul class="modServiceNavi clearfix">                  
+                  
+                <li class="navElem contact  "><a href="mailto:espacenet@inpi.fr">Contact</a></li>
+            </ul>
+            
+            <div class="noScript modFlyout twoColumn">
+                <div class="flyoutBody">    
+                    <div class="flyoutLine"></div>                                                              
+                    <a class="flyoutLink">Changer le pays</a>                   
+                        <ul class="epoMenu twoColumn" xmlns:editorial="http://espacenet.com/maintenance/editorial">
+<li class="odd spacer">&nbsp;</li>
+<li class="even spacer">&nbsp;</li>
+<li class="odd first">
+<a class="ext" href="http://www.epo.org/searching/free/espacenet.html">Allemagne</a>
+</li>
+<li class="even first">
+<a class="ext" href="http://at.espacenet.com/">Autriche</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://be.espacenet.com/">Belgique</a>
+</li>
+<li class="even">
+<a class="ext" href="http://bg.espacenet.com/">Bulgarie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://cy.espacenet.com/">Chypre</a>
+</li>
+<li class="even">
+<a class="ext" href="http://hr.espacenet.com/">Croatie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://dk.espacenet.com/">Danemark</a>
+</li>
+<li class="even">
+<a class="ext" href="http://es.espacenet.com/">Espagne</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=ee_EE">Estonie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://ea.espacenet.com/">Organisation eurasienne des brevets</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://fi.espacenet.com/">Finlande</a>
+</li>
+<li class="even">
+<a class="ext" href="http://fr.espacenet.com/">France</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://ru.espacenet.com/">Russie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://gr.espacenet.com/">Grèce</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://hu.espacenet.com/">Hongrie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://ie.espacenet.com/">Irlande</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://is.espacenet.com/">Islande</a>
+</li>
+<li class="even">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=it_IT">Italie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://lp.espacenet.com/">Latipat</a>
+</li>
+<li class="even">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=lv_LV">Lettonie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://lt.espacenet.com/">Lituanie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://lu.espacenet.com/">Luxembourg</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=fr_MC">Monaco</a>
+</li>
+<li class="even">
+<a class="ext" href="http://nl.espacenet.com/">Pays-Bas</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://pl.espacenet.com/">Pologne</a>
+</li>
+<li class="even">
+<a class="ext" href="http://pt.espacenet.com/">Portugal</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://ro.espacenet.com/">Roumanie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://gb.espacenet.com/">Royaume-Uni</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://sk.espacenet.com/">Slovaquie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://si.espacenet.com/">Slovénie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=fr_CH">Suisse</a>
+</li>
+<li class="even">
+<a class="ext" href="http://se.espacenet.com/">Suède</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=cz_CZ">Tchéquie</a>
+</li>
+<li class="even last">
+<a class="ext" href="http://tr.espacenet.com/">Turquie</a>
+</li>
+</ul>
+
+                    <div class="flyoutSpacer"></div>        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+<div class="modAppFlyoutNavi noScript noPrint">
+    <ul class="lvl1ul clearfix">
+        <li class="lvl1li">
+            <a class="leftArrow" href="http://www.epo.org/searching/free/espacenet.html" >A propos d'Espacenet</a>
+        </li>
+        <li class="lvl1li">
+            <a class="hasSubMenu sel" href="#">Services en ligne de l'OEB</a>
+            
+        </li>
+    </ul>
+</div>
+
+
+        <div id="epoNavigation" class="epoNavigation">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="modAppNav noScript clearfix">
+    <ul>
+        
+  
+        
+           
+           
+               <li class="bendr">
+                      <a href="http://fr.espacenet.com?locale=fr_FR">Rechercher</a>
+                  </li>
+           
+        
+           
+           
+            
+            
+            
+                
+                    
+                        <li class="bendractive"><a href="http://fr.espacenet.com/e/searchResults?compact=false&ST=singleline&query=banane&DB=fr.espacenet.com&locale=fr_FR">Liste de résultats</a></li>
+                    
+                    
+                
+            
+        
+           
+           
+           
+           <li class="bendr"><a id="menuPnStar" class="ptn" href="http://worldwide.espacenet.com/mydocumentslist?submitted=true&amp;locale=fr_FR">Ma liste de brevets&nbsp;(<span id="menuPnCount"></span>)</a></li>
+       
+           
+           <li class="bendr"><a href="http://fr.espacenet.com/queryHistory?locale=fr_FR">Historique des requêtes</a></li>
+       
+        <li class="spacer"></li>
+        
+        
+        <li class="bendl"><a href="http://fr.espacenet.com/settings?locale=fr_FR">Paramètres</a></li>
+        
+        <li class="bendl last">
+           <a href="http://fr.espacenet.com/fr/fr/helpV3/index.html?locale=fr_FR">Aide</a>
+       </li>
+    </ul>
+</div>
+
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ul id="epoBreadcrumbs" style="z-index: 999;">  
+       
+       
+	       
+	           
+	           
+	               
+	                   <li class="firstChild">
+		                                 
+		                       
+		                           <a id="breadcrumb0" href="http://fr.espacenet.com/singleLineSearch?compact=false&bcId=0&ST=singleline&query=banane&DB=fr.espacenet.com&REF=yes&locale=fr_FR">Rechercher</a>
+		                       
+		                       
+		                   
+	                   </li>
+	               
+	                   <li>
+		                                 
+		                       
+		                       
+		                           <span id="breadcrumb1">Page de résultats 1</span>
+		                       
+		                   
+	                   </li>
+	               
+	           
+	       
+	   
+	   
+	   
+    </ul>   
+
+
+	    	</div>
+
+        <div id="epoContentLeft">
+        	
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="epoContentNav"> 
+  
+    <li>
+        
+        
+        
+    
+        
+            
+          
+                <a href="http://fr.espacenet.com?locale=fr_FR">SmartSearch/Accueil</a>
+          
+        
+    </li>
+  
+  	<li>
+  		
+  		
+  		
+	  	
+	  	
+	  		
+	  	  
+	  	 		<a href="http://fr.espacenet.com/quickSearch?locale=fr_FR">Recherche rapide</a>
+	  	  
+	  	
+    </li>
+    
+    <li>
+  		
+  		
+  		
+
+	  	
+	  		
+	  	  
+	  	 		<a href="http://fr.espacenet.com/advancedSearch?locale=fr_FR">Recherche avancée</a>
+	  	  
+	  	
+    </li> 
+    
+    <li>
+  		
+  		
+  		
+
+	  	
+	  		
+	  	  
+	  	 		<a href="http://fr.espacenet.com/numberSearch?locale=fr_FR">Recherche par N°</a>
+	  	  
+	  	
+    </li>
+    
+	
+	  <li>
+	  		
+    		  
+        
+	  		  
+        
+	  	
+
+  		
+  		
+	  	
+	  	
+	  		
+	  	  
+	  	 		<a href="http://worldwide.espacenet.com/eclasrch?classification=ecla&amp;locale=fr_FR">Recherche dans la Classification</a>
+	  	  
+	  	
+    </li>  
+	
+	
+	
+	
+
+</ul> 
+
+<div style="clear: right;">&nbsp;</div>
+        	
+ 
+
+
+        	
+        	
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+<div class="epoAccordionContainer" style="height: 500px;">
+    <div class="dijitContainer dijitAccordionContainer dijitLayoutContainer" style="overflow: hidden;">
+        <div class="dijitAccordionTitle">
+            <span class="dijitInline dijitAccordionArrow"></span>
+            <img style="vertical-align: middle;" src="/javascript/dojo/resources/blank.gif" alt="" />
+            <span class="dijitAccordionText">Aide rapide</span>
+        </div>
+      <div class="dijitContentPane dijitAccordionContainer-child dijitAccordionContainer-dijitContentPane">
+          
+             <ul>
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.1&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, cliquez sur l&#039;icône RSS pour transformer l&#039;URL de la liste de résultats en flux accessible à partir du client RSS installé sur votre ordinateur. Chaque clic crée un nouveau flux RSS." class="int">Puis-je m'abonner à un flux RSS sur la liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.2&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Le lecteur RSS vérifie régulièrement le flux auquel vous vous êtes abonné (URL), télécharge toutes les mises à jour trouvées et affiche une interface utilisateur qui vous permet de contrôler et de lire les flux." class="int">Comment le lecteur RSS intervient-il au niveau de la liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.3&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui. Toutes les listes (&#034;Ma liste de résultats&#034;, etc...) peuvent être exportées au format CSV dans Excel. Il suffit de cliquer &#034;Exporter&#034; puis enregistrer." class="int">Puis-je exporter cette liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.4&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Il n&#039;est pas toujours possible, immédiatement après la recherche, de connaître exactement le nombre de résultats. Une estimation est alors indiquée, en règle générale légèrement supérieure au nombre exact." class="int">Pourquoi le nombre de résultats est-il parfois « approximatif » ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.5&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Ce nombre de 500 a été limité volontairement. Si vos résultats sont trop nombreux, vous devez affiner votre recherche." class="int">Pourquoi la liste de résultats affiche-t-elle seulement 500 réponses ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.6&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the highlighting by selecting or deselecting the relevant box under the Settings tab." class="int">Can I deactivate the highlighting?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.7&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Désormais, espacenet n&#039;affiche qu&#039;un seul document par jeu d&#039;équivalents, évitant ainsi d&#039;obtenir des doublons dans la liste de résultats." class="int">Pourquoi ai-je parfois moins de résultats qu'avec l'ancien espacenet ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.8&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, vous pouvez trier la liste de résultats par date de mise à jour, date de priorité, nom d&#039;inventeur, nom de déposant et par code de classification ECLA dans la limite de 500 documents trouvés." class="int">Puis-je trier cette liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.9&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Un document XP est un document de la littérature non brevet qui a été classé et/ou cité dans un rapport de recherche effectué par l&#039;OEB." class="int">Qu'est-ce qu'un document XP ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/e/help;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?quickHelpPage=resultslistExtended.10&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the query history by selecting or deselecting the relevant box under the Settings tab." class="int">Can I save my query?</a></li>
+                 
+              
+              </ul>
+          
+      </div>
+      
+  </div>
+</div>
+          
+        </div>
+
+        <div class="epoContentWrap clearfix">
+            
+
+
+
+
+
+
+
+
+
+
+
+<link href="/css/jquery-ui.custom.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+// some required message constants
+var LOADING_MESSAGE = 'Veuillez patienter, la recherche est en cours';
+var ERROR_DURING_REQUEST_MESSAGE = '???ErrorDuringRequest???';
+var TRY_AGAIN_MESSAGE = '???TryAgain???';
+var CLOSE_MESSAGE = 'Fermer';
+var PAGE_MESSAGE = 'page';//'Page';
+</script>
+<script type="text/javascript" src="/scripts/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery.history.js"></script>
+<script type="text/javascript" src="/scripts/resultListFeatures.js"></script>
+<script type="text/javascript" src="/scripts/downloadPDF.js"></script>
+
+
+
+<div id="pagebody">
+
+    <a name="Content"></a>
+    
+    
+    <h1>
+        LISTE DES RESULTATS
+        
+            <a href="http://fr.espacenet.com/websyndication/searchFeed?compact=false&amp;ST=singleline&amp;query=banane&amp;DB=fr.espacenet.com&amp;locale=fr_FR" title="RSS : liste de résultats"><img src="/images/rss.gif" width="16" border="0" alt="" /></a>
+        
+    </h1>
+    <div id="body">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="JavaScript">
+    
+        
+            var inMyDocumentsList=false;
+        
+        
+    
+</script>
+
+<div class="epoToolBar">
+    <ul class="clearfix">
+        <li class="separator separatorFirst">
+            <span class="firstFollow">|</span> 
+        </li>
+        
+        
+            
+            <li> 
+                <input id="downloadCheck" type="checkbox" onclick="toggleSelectAll('downloadCheck');">
+                <label for="downloadCheck" onclick="toggleSelectAll('downloadCheck');">Tout sélectionner</label>
+            </li>
+            
+            <li class="separator">
+                <span class="firstFollow">|</span>
+            </li>
+        
+		        <li>
+		            
+		
+		            
+		                
+		                    <a class="normLstRes" name="compactLink" id="compactLink" href="/e/searchResults;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?compact=true&amp;page=0&amp;ST=singleline&amp;query=banane&amp;locale=fr_FR&amp;DB=fr.espacenet.com" onclick="return toggleCompact(this);">
+		                       Compact
+		                    </a>
+		                
+		                
+		            
+		        </li>
+ 
+            <li class="separator">
+                <span class="firstFollow">|</span>
+            </li>
+
+            <li>
+                <a href="/exportResultsList" class="xpt" title="Exporter">
+                    Exporter
+                </a>
+                &nbsp;(&nbsp;<a style="margin-left:0; padding-left:0" href="/exportResultsList">CSV</a>&nbsp;|&nbsp;<a style="margin-left:0; padding-left:0" href="/exportExcelResultsList">XLS</a>&nbsp;)
+            </li>
+
+            
+                
+                <li class="separator">
+                    <span class="firstFollow">|</span>
+                </li>
+
+                <li> 
+                    <span id="downloadPdfAction">
+                        <a class="download" onclick="return downloadPDF(this)" href="/downloadCovers?locale=fr_FR&popup=true" target="savePdf">
+                            Télécharger 1ère page&nbsp;(<span id="selectedPfdCount">0</span>)
+                        </a>
+                    </span>
+                </li>
+            
+        
+
+        
+
+        
+	        <li class="separator">
+	            <span class="firstFollow">|</span>
+	        </li>
+	    
+        
+        <li class="floatRight lastItem">
+            <a href="#" onclick="window.print(); return false;" class="prt" title="Imprimer">
+                Imprimer
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div id="captchaDialog" title="espacenet vérification"></div>
+
+
+<iframe name="savePdf" class="noPrint" height="5" width="5" style="visibility:hidden"></iframe>
+        <div class="epoBar epoBarFilter printFilter">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="primary">
+    <div class="epoBarItem">
+        <p>
+            
+	            
+	            
+	
+	            
+	            
+	               
+	                  
+	                   
+	                    Approximativement 247 résultats trouvés dans la base de données FR pour :
+	                   
+	                   
+	               
+	            
+	
+	            
+	            
+	        
+        </p>
+        <p>
+            
+	        
+	        
+	        
+	        
+	        
+	          <strong>txt = banane
+	                </strong> en utilisant la "SmartSearch"        
+	                
+	          
+        </p>
+        
+    </div>
+</div>
+
+            
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="secondary noPrint">
+	
+	
+	    <div class="epoBarItem pagination paginationResults paginationSlider">
+	
+	        
+	        
+				
+				
+				     <span class="paginationPrevious" title="précédent"></span>
+				
+	        
+	        
+	        
+	        
+	            
+	                
+	                <a id="nextPageLink" class="paginationNext" href="searchResults;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?page=1&ST=singleline&compact=false&query=banane&locale=fr_FR&DB=fr.espacenet.com" title="suivant"
+	                     accesskey="2" title="acc-2" >
+	                    suivant
+	                </a>
+	            
+	            
+	        
+	        
+	        
+	        
+	        
+	        
+		
+	    
+	    <ul>
+	        
+	
+		   
+		   
+		      
+		   
+	
+	       
+	
+		    
+		    
+		        
+		            
+		                
+		                <li><strong><em>1</em></strong></li>
+		            
+		            
+		        
+		    
+	
+		   
+	        </ul>
+	        
+	        
+	    </div>
+	
+</div>
+
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/scripts/espacenet.sorting.js"></script>
+
+
+
+<form id="sortForm" action="#">
+    <input id="baseSortUrl" name="baseSortUrl" type="hidden" value="http://fr.espacenet.com/e/searchResults?compact=false&ST=singleline&query=banane&DB=fr.espacenet.com&locale=fr_FR" />
+    <div class="epoBar epoBarSort noPrint">
+         <div class="primary">
+             
+               
+		             <div class="epoBarItem epoBarItemForm">
+		                 <div class="formElement">
+		                     <label for="sortBy">Trier par</label>
+		                     <span class="select" style="width:150px;">
+		                         <select style="width:150px;" name="sortBy" id="sortBy" >
+		                             
+		                                  
+		                                  
+		                                  
+		                                      <option value="pd">Date de chargement</option>
+		                                  
+		                                  
+		                              
+		                                  
+		                                  
+		                                  
+		                                      <option value="prd">Date de priorité</option>
+		                                  
+		                                  
+		                              
+		                                  
+		                                  
+		                                  
+		                                      <option value="in">Inventeur</option>
+		                                  
+		                                  
+		                              
+		                                  
+		                                  
+		                                  
+		                                      <option value="pa">Demandeur</option>
+		                                  
+		                                  
+		                              
+		                         </select>
+		                     </span>
+		                 </div>
+		             </div>
+		             <div class="epoBarItem epoBarItemForm">
+		                 <div class="formElement">
+		                     <label for="sortOrder">Ordre de tri</label>
+		                     <span class="select" style="width:150px;">
+		                         
+		                         <select style="width:150px;" name="sortOrder" id="sortOrder">
+		                             
+		                              
+		                              
+		                                  <option value="ascending">Ascending</option>
+                                          <option value="descending" selected="selected">Descending</option>
+		                              
+		                              
+		                         </select>
+		                     </span>
+		                 </div>
+		             </div>
+		            <div class="epoBarItem epoBarItemForm">
+		                 <div class="formElement">
+		                     <span class="inputsubmit">
+		                         <input type="submit" class="submit" value="Sort" onclick="return submitSort();"/>
+		                     </span>
+		                 </div>
+		             </div>
+		     
+		     
+            
+            </div>
+         <div class="secondary">
+         </div>
+     </div>
+</form>
+        
+
+
+
+
+
+
+
+
+
+
+
+<form action="deliberatelyEmpty">
+    <div class="modSearchResult">
+     <table class="application">
+        <tbody>
+	        
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2985893A3;FR2985893" onclick="updateSelectedDocumentCount()" />
+                1.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20130726&amp;CC=FR&amp;NR=2985893A3&amp;KC=A3">
+	                
+	                    
+	                    
+	                        
+	                            SAC A DOS MULTI POCHES POUR PORTAGE DE CHIENS TOUTES TAILLES DANS LE CADRE DES LOISIRS, DU SPORT ET DE LA RANDONNEE
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2985893A3;FR2985893" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                GEERAERT SOPHIE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                GEERAERT SOPHIE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A45F3/00
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2985893&nbsp;(A3)
+                                
+                                    <br />
+                                    
+                                        2013-07-26
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2012-01-20
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2985184A1;FR2985184" onclick="updateSelectedDocumentCount()" />
+                2.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20130705&amp;CC=FR&amp;NR=2985184A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            UTILISATION COSMETIQUE D'UN EXTRAIT DE <span class="highlight">BANANE</span>
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2985184A1;FR2985184" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                COURTIN OLIVIER
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                CLARINS LAB []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A61K8/97<br>A61Q19/00
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2985184&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2013-07-05
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2011-12-30
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2968896A1;FR2968896" onclick="updateSelectedDocumentCount()" />
+                3.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20120622&amp;CC=FR&amp;NR=2968896A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            PROCEDE ET DISPOSITIF DE CONDITIONNEMENT ET DE COUPE EN CONTINU DE <span class="highlight">BANANE</span>S
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2968896A1;FR2968896" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                HENRY HERVE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                SAINT ETIENNE AUTOMATION []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A23N15/06
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2968896&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2012-06-22
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2010-12-17
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2962330A1;FR2962330" onclick="updateSelectedDocumentCount()" />
+                4.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20120113&amp;CC=FR&amp;NR=2962330A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            UTILISATION COSMETIQUE D'UN EXTRAIT DE <span class="highlight">BANANE</span>
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2962330A1;FR2962330" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                COURTIN OLIVIER [FR]
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                CLARINS LAB [FR]
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A61K8/97<br>A61Q19/00
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2962330&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2012-01-13
+                                    
+                                
+                            
+                                
+                                    <br />
+                                
+                                FR2962330&nbsp;(B1)
+                                
+                                    <br />
+                                    
+                                        2013-02-15
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2010-07-08
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2944418A1;FR2944418" onclick="updateSelectedDocumentCount()" />
+                5.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20101022&amp;CC=FR&amp;NR=2944418A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            DISPOSITIF POUR PRE DECOUPER ET EPLUCHER DES <span class="highlight">BANANE</span>S VERTES ET POUVANT FABRIQUER DES FRITES.
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2944418A1;FR2944418" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                ALEXIS DANIEL ARISTIDE [FR]
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                ALEXIS DANIEL ARISTIDE [FR]
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A47J17/02
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2944418&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2010-10-22
+                                    
+                                
+                            
+                                
+                                    <br />
+                                
+                                FR2944418&nbsp;(B1)
+                                
+                                    <br />
+                                    
+                                        2011-06-17
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2009-04-21
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2915982A3;FR2915982" onclick="updateSelectedDocumentCount()" />
+                6.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20081114&amp;CC=FR&amp;NR=2915982A3&amp;KC=A3">
+	                
+	                    
+	                    
+	                        
+	                            LE MONTE A CRU
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2915982A3;FR2915982" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                WOZNIAK YSABELL MAURICETTE STACHA
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                WOZNIAK YSABELL MAURICETTE STACHA []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                B68C1/00<br>B68C3/00
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2915982&nbsp;(A3)
+                                
+                                    <br />
+                                    
+                                        2008-11-14
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2007-05-11
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2885282A1;FR2885282" onclick="updateSelectedDocumentCount()" />
+                7.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20061110&amp;CC=FR&amp;NR=2885282A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            <span class="highlight">BANANE</span> COMME SUBTITUT AU GLUTEN
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2885282A1;FR2885282" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                SCLAMINEC JEAN PIERRE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                SCLAMINEC JEAN PIERRE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A21D2/36<br>A23L1/212
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2885282&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2006-11-10
+                                    
+                                
+                            
+                                
+                                    <br />
+                                
+                                FR2885282&nbsp;(B1)
+                                
+                                    <br />
+                                    
+                                        2008-07-04
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2005-05-09
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2879105A1;FR2879105" onclick="updateSelectedDocumentCount()" />
+                8.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20060616&amp;CC=FR&amp;NR=2879105A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            DISPOSITIF PERMETTANT DE DECHARGER LES IONS POSITIFS DU CORPS HUMAIN VERS LA TERRE
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2879105A1;FR2879105" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                MASCLET ANNE MARIE EP BOEMARE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                MASCLET ANNE MARIE EP BOEMARE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A61N1/14
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2879105&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2006-06-16
+                                    
+                                
+                            
+                                
+                                    <br />
+                                
+                                FR2879105&nbsp;(B1)
+                                
+                                    <br />
+                                    
+                                        2007-01-26
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2004-12-14
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2874858A1;FR2874858" onclick="updateSelectedDocumentCount()" />
+                9.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20060310&amp;CC=FR&amp;NR=2874858A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            ENSEMBLE DE MODULE D'ANGLE AVANT MCPHERSON AVEC RESSORT EN FORME DE <span class="highlight">BANANE</span> OU DE S
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2874858A1;FR2874858" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                SCHUYTEN KRIS
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                TENNECO AUTOMOTIVE OPERATING []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                B60G11/15<br>B60G15/07<br>B60G3/06
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2874858&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2006-03-10
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2004-09-09
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2851146A1;FR2851146" onclick="updateSelectedDocumentCount()" />
+                10.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20040820&amp;CC=FR&amp;NR=2851146A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            FEUILLE DE <span class="highlight">BANANE</span> JETABLE DESTINEE A RECEVOIR DES ALIMENTS
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2851146A1;FR2851146" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                GOVINDASSAMY LEONUS
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                GOVINDASSAMY LEONUS []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A47G19/02<br>A47G19/03<br>
+                                
+                                
+                                
+                                (IPC1-7):A47G19/02<br>
+                            (+1)
+
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2851146&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2004-08-20
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2003-02-18
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2846685A1;FR2846685" onclick="updateSelectedDocumentCount()" />
+                11.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20040507&amp;CC=FR&amp;NR=2846685A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            PANNEAU REALISE EN FIBRE DE PEAUX DE <span class="highlight">BANANE</span>S
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2846685A1;FR2846685" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                CARPANZANO JOSEPH
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                CARPANZANO JOSEPH []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                E04C2/16<br>
+                                
+                                
+                                
+                                (IPC1-7):E04C2/16
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2846685&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2004-05-07
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2002-11-05
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2844684A1;FR2844684" onclick="updateSelectedDocumentCount()" />
+                12.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20040326&amp;CC=FR&amp;NR=2844684A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            POCHETTE-CAISSE EN TISSU JEAN OU TOILE EPAISSE 100% COTON MUNIE DE POCHES POUR LE RANGEMENT INDIVIDUALISE DES DIFFERENTES PIECES EUROS ET D'UNE POCHE SUPPLEMENTAIRE AVEC FERMETURE A GLISSIERE POUR LE RANGEMENT DES BILLETS
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2844684A1;FR2844684" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BRUKARZ CORINNE NADINE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BRUKARZ CORINNE NADINE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A45C1/04<br>A45C1/10<br>A45F5/02<br>
+                                
+                                
+                                
+                                
+                            (+4)
+
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2844684&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2004-03-26
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2002-09-25
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2839856A1;FR2839856" onclick="updateSelectedDocumentCount()" />
+                13.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20031128&amp;CC=FR&amp;NR=2839856A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            PROCEDE D'OBTENTION DE PRODUITS DERIVES DE <span class="highlight">BANANE</span>S, NOTAMMENT DE LIQUEFACTION DE LA <span class="highlight">BANANE</span> EN VUE D'OBTENIR UN PUR-<wbr/>JUS
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2839856A1;FR2839856" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                ESCUDIER JEAN LOUIS
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                MIKOLAJCZAK MICHEL
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+                            (+1)
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                AGRONOMIQUE INST NAT RECH []
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                MINATCHY NATHALIE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A23L2/04<br>A23L2/08<br>
+                                
+                                
+                                
+                                (IPC1-7):A23L2/04
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2839856&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2003-11-28
+                                    
+                                
+                            
+                                
+                                    <br />
+                                
+                                FR2839856&nbsp;(B1)
+                                
+                                    <br />
+                                    
+                                        2004-08-06
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2002-05-24
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2835158A3;FR2835158" onclick="updateSelectedDocumentCount()" />
+                14.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20030801&amp;CC=FR&amp;NR=2835158A3&amp;KC=A3">
+	                
+	                    
+	                    
+	                        
+	                            SAC ETANCHE ET HERMETIQUE EN MATIERE PLASTIQUE OU CAOUTCHOUC  AVEC POUR UNIQUE FERMETURE UN BOUCHON PLASTIQUE VISSE D'ENVIRON 8 A 9 CENTIMETRES DE DIAMETRE SELON LE MODELE
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2835158A3;FR2835158" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BERTAUD SYLVIE NICOLE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BERTAUD SYLVIE NICOLE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                A45C11/22<br>
+                                A45F3/00<br>A45F3/04<br>
+                                
+                                
+                                
+                            (+1)
+
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2835158&nbsp;(A3)
+                                
+                                    <br />
+                                    
+                                        2003-08-01
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2002-01-25
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="FR2829633A1;FR2829633" onclick="updateSelectedDocumentCount()" />
+                15.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20030314&amp;CC=FR&amp;NR=2829633A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            BATTERIE SOLAIRE PORTABLE
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_FR2829633A1;FR2829633" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BOULEAU RENE MARIE PIERRE
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BOULEAU RENE MARIE PIERRE []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                H01L31/042<br>H02N6/00<br>
+                                
+                                
+                                
+                                (IPC1-7):H02J7/35<br>
+                            (+1)
+
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                FR2829633&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2003-03-14
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2001-09-13
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+        </tbody>
+    </table>
+  </div>
+</form>
+
+        
+        
+        
+            <div class="epoBar epoBarFilter">
+                <div class="primary">
+                </div>
+                
+                    
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="secondary noPrint">
+	
+	
+	    <div class="epoBarItem pagination paginationResults paginationSlider">
+	
+	        
+	        
+				
+				
+				     <span class="paginationPrevious" title="précédent"></span>
+				
+	        
+	        
+	        
+	        
+	            
+	                
+	                <a id="nextPageLink" class="paginationNext" href="searchResults;jsessionid=04C3B5CF708DFFABF7905FCB1C46E1DE?page=1&ST=singleline&compact=false&query=banane&locale=fr_FR&DB=fr.espacenet.com" title="suivant"
+	                    >
+	                    suivant
+	                </a>
+	            
+	            
+	        
+	        
+	        
+	        
+	        
+	        
+		
+	    
+	    <ul>
+	        
+	
+		   
+		   
+		      
+		   
+	
+	       
+	
+		    
+		    
+		        
+		            
+		                
+		                <li><strong><em>1</em></strong></li>
+		            
+		            
+		        
+		    
+	
+		   
+	        </ul>
+	        
+	        
+	    </div>
+	
+</div>
+
+
+            </div>
+        
+    </div>
+
+</div>
+
+        </div>
+		
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+<div id="epoFooter">
+    <ul>
+        
+        
+            <li>FR Base de données</li>
+        
+        <li>5.7.22.5; ult</li>
+    </ul>
+</div>
+
+    </div>
+
+</body>
+</html>
