@@ -4,6 +4,7 @@ require.config({
     'paths': {
         'backbone': 'lib/backbone-0.9.9.min',
         'app': 'app/app',
+		'router': 'app/router'
         'modules': 'app/modules',
         'underscore': 'lib/lodash',
         'waypoints': 'lib/waypoints',
