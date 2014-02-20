@@ -7,18 +7,18 @@ define(['app', 'backbone'], function(App, Backbone) {
 			var routes = {
 				'routes':{ 
 					'': 'index',
-					'scrap': 'scrap',
+					'blog': 'blog',
+					'about': 'about',
 				},
 				
 				'index': function(){
 					console.log('index route');
 				},
-				'scrap': function(){
-					require(['modules/scrap/main'], function(ScrapMain){
-						console.log('scrap route');
-						ScrapMain.initialize();
+				'about': function(){
+					require(['modules/about/main'], function(AboutMain){
+						AboutMain.initialize();
 					});
-				},
+					console.log('about route');},
 				'blog': function(){console.log('blog route');}
 			};
 		new (Backbone.Router.extend(routes))();

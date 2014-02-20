@@ -14,6 +14,9 @@ define(['backbone'],function(Backbone) {
 					this.view = new DefaultViewsMain($('#main'));
 					Backbone.history.start({ pushState: true });
 					return this;
+					/***
+					var postRouteur = new Posts.Router();
+					 **/
 				}.bind(this)
 			);
 		}
