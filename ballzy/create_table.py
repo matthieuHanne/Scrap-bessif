@@ -2,7 +2,7 @@ import sqlite3
 try:
 	conn = sqlite3.connect('Base_brevet.db')
 	c = conn.cursor()
-	c.execute('''CREATE TABLE table_brevet(id INTEGER PRIMARY KEY ASC,signet text,date text, num_demande text,num_priorite text,contenu text )''')
+	c.execute('''CREATE TABLE table_brevet(id INTEGER PRIMARY KEY ASC,signet text,date text, num_demande text,num_priorite text,contenu text , link text )''')
 
 	c.execute('''CREATE TABLE table_inventeur(id INTEGER PRIMARY KEY ASC , name TEXT ,id_brevet INTEGER)''')
 	c.execute('''CREATE TABLE table_demandeur(id INTEGER PRIMARY KEY ASC , name TEXT ,id_brevet INTEGER)''')

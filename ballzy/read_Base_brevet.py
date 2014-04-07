@@ -7,7 +7,7 @@ c = conn.cursor()
 def show_brevet():
 	try :
 		    print "table des brevets"
-		    c.execute('SELECT * FROM table_brevet')
+		    c.execute('SELECT * FROM table_brevet where id=2550')
 		    a= c.fetchone()
 
 		    while a:
@@ -41,7 +41,7 @@ def show_brevet_spe():
 def show_inventeur():
 	try :
 		    print "table des inventeur"
-		    c.execute('SELECT * FROM table_inventeur')
+		    c.execute("SELECT * FROM table_inventeur where id_brevet = 2550")
 		    a= c.fetchone()
 
 		    while a:
@@ -57,7 +57,7 @@ def show_inventeur():
 def show_demandeur():
 	try :
 		    print "table des demandeur"
-		    c.execute('SELECT * FROM table_demandeur')
+		    c.execute("SELECT * FROM table_demandeur where NAME = 'LG ELECTRONICS INC'")
 		    a= c.fetchone()
 
 		    while a:
@@ -178,7 +178,7 @@ else:
 		if sys.argv[1]=='t':
 			show_all();
 		elif sys.argv[1]=='b':
-			show_brevet()
+			show_inventeur()
 		elif sys.argv[1]=='ci':
 			show_classification_int()
 		elif sys.argv[1]=='ce':
