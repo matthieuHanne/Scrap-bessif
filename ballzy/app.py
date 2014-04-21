@@ -1,7 +1,7 @@
 
 from flask import Flask
 from flask import request 
-import ic05_new_db
+import scrap_bessif_launcher
 
 app = Flask(__name__)
 
@@ -12,9 +12,10 @@ def init():
 @app.route('/scrap', methods=['POST'])
 def scrap():
     keywords = request.form['keywords'].split()
-    for word in keywords:
-        print word   
-        ic05_new_db.recherche(word)
+	export_config = request.form['export_config'].split()
+	mail_addr= request.form['mail_to']
+	databases = request.form['databases'].split()
+    scrap_bessif_launcher.Scrap(mail_addr,export_config,keywords,databases)
     return 'test:)'
 if __name__ == '__main__':
     app.run()
