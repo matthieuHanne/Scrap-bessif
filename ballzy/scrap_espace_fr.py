@@ -11,7 +11,7 @@ sys.setdefaultencoding("utf-8")
 photoname = 1
 
 
-g=open("log_espace_fr.log",'wb') 
+g=open("temp/log_espace_fr.log",'wb') 
 
 
 def scrap_url(url,file_name,numberbrevet,temp_file,keyword):
@@ -47,7 +47,7 @@ def scrap_url(url,file_name,numberbrevet,temp_file,keyword):
 	
 		if temp_file:
 
-			f = open("temp", 'wb')	
+			f = open("temp/temp", 'wb')	
 			buffer = u.read()
 			f.write(buffer)
 			f.close()
@@ -443,7 +443,7 @@ def scrap_url(url,file_name,numberbrevet,temp_file,keyword):
 			# cas 2 brevet deja vu mais keyword different
 			# cas 3 brevet deja vu et meme keyword
 			try:
-				conn = sqlite3.connect('Base_brevet.db')
+				conn = sqlite3.connect('temp/Base_brevet.db')
 				c = conn.cursor()
 		
 				request1 = "SELECT id from table_brevet WHERE signet='"+signet+"'"
@@ -524,7 +524,7 @@ def scrap_url(url,file_name,numberbrevet,temp_file,keyword):
 def parcour_page(url,name,numberbrevet,keyword):
 	photoname=0	
 	scrap_url(url ,name,numberbrevet,1,keyword)	
-	f = open("temp", 'rb')
+	f = open("temp/temp", 'rb')
 	i=1
 	wk=""
 	brevet=0
@@ -608,7 +608,7 @@ def recherche (keyword) :
 def scrap_multi_keyword(keywords):
 	for word in keywords :
 		recherche(word)
-	os.remove("temp")
+	os.remove("temp/temp")
 			
 #if len(sys.argv) > 2:
      #stripScriptFromHtml( sys.argv[1], sys.argv[2] )
