@@ -78,16 +78,7 @@ def add_brevet_to_xml ():
 	
 def export(to_export_arg):		
 
-	to_write_node = "Signet,Id,Label,Type,Occured,Date,Num_demande,link\n"
-	to_write_edge = "Source,Target,Type,Id,Type_edge,Weigth\n"
-	f = open("temp_node.csv", 'wb')	
-	g = open("temp_edge.csv", 'wb')	
 
-
-	conn = sqlite3.connect("Base_brevet.db")
-	cur = conn.cursor()
-	current_n_id=0
-	current_e_id=0
 	add_brevet_to_xml()
 
 	for i in to_export_arg :
@@ -114,4 +105,13 @@ def export(to_export_arg):
 
 
 	g.close()
+to_write_node = "Signet,Id,Label,Type,Occured,Date,Num_demande,link\n"
+to_write_edge = "Source,Target,Type,Id,Type_edge,Weigth\n"
+f = open("temp/temp_node.csv", 'wb')	
+g = open("temp/temp_edge.csv", 'wb')	
 
+
+conn = sqlite3.connect("temp/Base_brevet.db")
+cur = conn.cursor()
+current_n_id=0
+current_e_id=0

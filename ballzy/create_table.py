@@ -1,6 +1,6 @@
 import sqlite3
 try:
-	conn = sqlite3.connect('Base_brevet.db')
+	conn = sqlite3.connect('temp/Base_brevet.db')
 	c = conn.cursor()
 	c.execute('''CREATE TABLE table_brevet(id INTEGER PRIMARY KEY ASC,signet text,date text, num_demande text,num_priorite text,contenu text , link text )''')
 
