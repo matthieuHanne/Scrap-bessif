@@ -1,7 +1,7 @@
 import scrap_espace_fr
 import scrap_espace_word
 import export_to_xml
-import mail
+import my_mail
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -16,12 +16,12 @@ def Scrap(mail,export_arg,keywords,databases):
 		elif i =='w':
 			scrap_espace_word.scrap_multi_keyword(keywords)
 	export_to_xml.export(export_arg)
-	mail.send_mail(mail,keywords)
+	my_mail.send_mail(mail,keywords)
 
 mail = "benedict.hanser@gmail.com"
 export = "i"
 keywords=["zob"]
-databases = "w"
+databases = "p"
 
 Scrap(mail,export,keywords,databases)
-	
+

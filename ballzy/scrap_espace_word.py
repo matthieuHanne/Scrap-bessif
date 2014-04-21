@@ -627,7 +627,7 @@ def recherche (keyword) :
 def scrap_multi_keyword(keywords):
 	for word in keywords :
 		recherche(word)
-	os.remove("temp")
+
 			
 #if len(sys.argv) > 2:
      #stripScriptFromHtml( sys.argv[1], sys.argv[2] )

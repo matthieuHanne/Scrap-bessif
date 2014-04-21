@@ -93,6 +93,6 @@ send_to='benedict.hanser@gmail.com'
 send_from='benedict.hanser@gmail.com'
 
 
-keywords = open('keyword.txt','rb')
+#keywords = open('keyword.txt','rb')
 #send_email("benedict.hanser@gmail.com")
 #send_mail(send_to,keywords)
