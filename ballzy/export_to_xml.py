@@ -76,9 +76,29 @@ def add_brevet_to_xml ():
 		current_n_id = item[0]
 		item=cur.fetchone()
 	
-def export(to_export_arg):		
+def export(to_export_arg,number_file):
+		
+	global current_n_id
+	global current_e_id
+	global cur
+	global to_write_node
+	global to_write_edge
+	global f 
+	global g
+	
+	filenames=["temp/temp_node_"+str(number_file)+".csv","temp/temp_edge_"+str(number_file)+".csv"]	
+	to_write_node = "Signet,Id,Label,Type,Occured,Date,Num_demande,link\n"
+	to_write_edge = "Source,Target,Type,Id,Type_edge,Weigth\n"
+	f = open(filenames[0], 'wb')	
+	g = open(filenames[1], 'wb')	
 
 
+	conn = sqlite3.connect("temp/Base_brevet.db")
+	cur = conn.cursor()
+	current_n_id=0
+	current_e_id=0
+	
+	
 	add_brevet_to_xml()
 
 	for i in to_export_arg :
@@ -102,16 +122,14 @@ def export(to_export_arg):
 
 
 	f.close()
-
-
 	g.close()
-to_write_node = "Signet,Id,Label,Type,Occured,Date,Num_demande,link\n"
-to_write_edge = "Source,Target,Type,Id,Type_edge,Weigth\n"
-f = open("temp/temp_node.csv", 'wb')	
-g = open("temp/temp_edge.csv", 'wb')	
+	return filenames
 
-
-conn = sqlite3.connect("temp/Base_brevet.db")
-cur = conn.cursor()
 current_n_id=0
 current_e_id=0
+cur=0
+to_write_node=0
+to_write_edge=0
+f=0
+g=0
+
